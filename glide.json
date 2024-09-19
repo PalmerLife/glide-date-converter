@@ -1,0 +1,18 @@
+[
+  {
+    "kind": "column",
+    "name": "Time Range Converter with Closed Status",
+    "description": "Converts a military time range (e.g., '08:00-17:00') to 12-hour format with AM/PM (e.g., '8:00am - 5:00pm'). Returns 'Closed' if the input is empty or blank.",
+    "author": "Your Name <your.email@example.com>",
+    "params": [
+      {
+        "name": "timeRange",
+        "displayName": "Time Range",
+        "type": "string"
+      }
+    ],
+    "result": {
+      "type": "string"
+    }
+  }
+]
